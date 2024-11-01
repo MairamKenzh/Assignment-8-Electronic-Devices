@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane onDragDetected="#onAddClick" prefHeight="525.0" prefWidth="670.0" style="-fx-background-color: #333652;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.demo1.HelloController">
+    <children>
+        <ListView fx:id="listView" layoutX="16.0" layoutY="20.0" prefHeight="202.0" prefWidth="638.0" style="-fx-background-color: #e9eaec;" />
+        <Button fx:id="RemoveClick" layoutX="418.0" layoutY="446.0" mnemonicParsing="false" onAction="#onRemoveClick" prefHeight="26.0" prefWidth="140.0" style="-fx-background-color: #90adc6;" text="Remove" textFill="#f2f2f2">
+            <font>
+                <Font name="Arial Black" size="13.0" />
+            </font>
+        </Button>
+
+        <RadioButton fx:id="rdSmartphone" layoutX="488.0" layoutY="245.0" mnemonicParsing="false" onAction="#onDeviceSelected" selected="true" text="Smartphone" textFill="#e9eaec">
+            <font>
+                <Font name="Arial Black" size="11.0" />
+            </font></RadioButton>
+        <RadioButton fx:id="rdLaptop" layoutX="299.0" layoutY="245.0" mnemonicParsing="false" onAction="#onDeviceSelected" text="Laptop" textFill="#e9eaec">
+            <font>
+                <Font name="Arial Black" size="11.0" />
+            </font></RadioButton>
+        <RadioButton fx:id="rdTablet" layoutX="109.0" layoutY="245.0" mnemonicParsing="false" onAction="#onDeviceSelected" text="Tablet" textFill="#e9eaec">
+            <font>
+                <Font name="Arial Black" size="11.0" />
+            </font></RadioButton>
+
+        <Button layoutX="109.0" layoutY="446.0" mnemonicParsing="false" onAction="#onAddClick" prefHeight="26.0" prefWidth="140.0" style="-fx-background-color: #90adc6;" text="Add" textFill="#f2f2f2">
+            <font>
+                <Font name="Arial Black" size="13.0" />
+            </font>
+        </Button>
+        <Label fx:id="label" layoutX="30.0" layoutY="320.0" text="" />
+        <TextField fx:id="textName" layoutX="59.0" layoutY="362.0" style="-fx-background-color: #e9eaec;" />
+        <TextField fx:id="textWeight" layoutX="472.0" layoutY="362.0" style="-fx-background-color: #e9eaec;" />
+        <TextField fx:id="textPrice" layoutX="260.0" layoutY="362.0" style="-fx-background-color: #e9eaec;" />
+        <Label layoutX="114.0" layoutY="329.0" text="Name" textFill="#e9eaec">
+            <font>
+                <Font name="Arial Rounded MT Bold" size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="317.0" layoutY="329.0" text="Price" textFill="#e9eaec">
+            <font>
+                <Font name="Arial Rounded MT Bold" size="14.0" />
+            </font>
+        </Label>
+
+        <TextField fx:id="textScreenSize" layoutX="109.0" layoutY="290.0" style="-fx-background-color: #e9eaec;" />
+        <TextField fx:id="textCameraResolution" layoutX="269.0" layoutY="290.0" style="-fx-background-color: #e9eaec;" />
+        <Label fx:id="labelScreenSize" layoutX="109.0" layoutY="270.0" text="Screen Size" textFill="#e9eaec" />
+        <Label fx:id="labelCameraResolution" layoutX="269.0" layoutY="270.0" text="Camera Resolution" textFill="#e9eaec" />
+        <TextField fx:id="textRamSize" layoutX="109.0" layoutY="290.0" style="-fx-background-color: #e9eaec;" />
+        <TextField fx:id="textProcessorType" layoutX="269.0" layoutY="290.0" style="-fx-background-color: #e9eaec;" />
+        <Label fx:id="labelRamSize" layoutX="109.0" layoutY="270.0" text="RAM Size" textFill="#e9eaec" />
+        <Label fx:id="labelProcessorType" layoutX="269.0" layoutY="270.0" text="Processor Type" textFill="#e9eaec" />
+        <TextField fx:id="textBatteryLife" layoutX="109.0" layoutY="290.0" style="-fx-background-color: #e9eaec;" />
+        <Label fx:id="labelBatteryLife" layoutX="109.0" layoutY="270.0" text="Battery Life" textFill="#e9eaec" />
+        <CheckBox fx:id="checkHasStylus" layoutX="109.0" layoutY="290.0" text="Has Stylus" textFill="#e9eaec" />
+        <Label layoutX="520.0" layoutY="329.0" text="Weight" textFill="#e9eaec">
+            <font>
+                <Font name="Arial Rounded MT Bold" size="14.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
