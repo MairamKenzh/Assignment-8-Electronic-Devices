@@ -1,4 +1,5 @@
-### Description: 
+# Documentation
+## Description: 
 This JavaFX application is designed for managing various devices such as smartphones, laptops, and tablets. 
 Users can add, remove, and view devices with different characteristics like name, price, weight, and unique parameters for each type of device.
 
@@ -84,8 +85,8 @@ Open the project in your IDE (e.g., IntelliJ IDEA).
 Run the HelloApplication class.
 Use the interface to add, remove, and view devices.
 
-![Alt text](path/to/your/image.jpg)
-![Alt text](path/to/your/image.jpg)
-![Alt text](path/to/your/image.jpg)
-![Alt text](path/to/your/image.jpg)
+![Alt text](1.jpg)
+![Alt text](2.jpg)
+![Alt text](3.jpg)
+![Alt text](4.jpg)
 
