@@ -66,7 +66,7 @@ private final boolean hasStylus: Presence of a stylus.
 *Methods:*
 toString(): Returns a string representation of the tablet.
 
-## 3. User Interface Description
+## User Interface Description
 *Main UI Components:*
 **Device List (ListView):** Displays all added devices.
 **Radio Buttons (RadioButton):** Allow users to select the type of device (Smartphone, Laptop, Tablet).
@@ -83,3 +83,9 @@ Download or clone the project.
 Open the project in your IDE (e.g., IntelliJ IDEA).
 Run the HelloApplication class.
 Use the interface to add, remove, and view devices.
+
+![Alt text](path/to/your/image.jpg)
+![Alt text](path/to/your/image.jpg)
+![Alt text](path/to/your/image.jpg)
+![Alt text](path/to/your/image.jpg)
+
